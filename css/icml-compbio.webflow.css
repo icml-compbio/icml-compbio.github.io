@@ -1,5 +1,5 @@
 body {
-  font-family: 'DM Sans', sans-serif;
+  font-family: 'DM Sans';
   color: #000;
   font-size: 16px;
   line-height: 20px;
@@ -139,7 +139,7 @@ a {
 .subhead {
   margin-top: 0px;
   margin-bottom: 15px;
-  font-family: 'Fanwood Text', sans-serif;
+  font-family: 'Fanwood Text';
   color: rgba(0, 0, 0, 0.5);
   font-size: 24px;
   line-height: 1.2;
@@ -192,6 +192,7 @@ a {
   -ms-flex-align: start;
   align-items: flex-start;
   border-top: 1px solid #dddcdc;
+  font-family: DMsans, Verdana, sans-serif;
   text-align: center;
 }
 
@@ -258,6 +259,7 @@ a {
   border-width: 1px;
   border-color: #dddcdc #000 #000;
   border-radius: 0px;
+  font-family: DMsans, Verdana, sans-serif;
 }
 
 .flex-container {
@@ -387,6 +389,7 @@ a {
   border-width: 1px;
   border-color: #dddcdc #000 #000;
   border-radius: 0px;
+  font-family: DMsans, Verdana, sans-serif;
 }
 
 .list-item {
@@ -399,7 +402,7 @@ a {
 }
 
 .rich-text-block {
-  font-family: 'DM Sans', sans-serif;
+  font-family: 'DM Sans';
   color: rgba(0, 0, 0, 0.7);
 }
 
@@ -442,6 +445,7 @@ a {
 .heading-2 {
   margin-left: 0px;
   padding-left: 0px;
+  font-family: Dmsans, Verdana, sans-serif;
 }
 
 .heading-3 {
@@ -463,6 +467,7 @@ a {
   margin-bottom: 20px;
   margin-left: 0px;
   padding-left: 0px;
+  font-family: Dmsans, Verdana, sans-serif;
 }
 
 .paragraph-3 {
@@ -489,6 +494,7 @@ a {
   grid-template-columns: 1fr 1fr 1fr;
   -ms-grid-rows: auto;
   grid-template-rows: auto;
+  font-family: Dmsans, Verdana, sans-serif;
   text-align: left;
 }
 
@@ -555,12 +561,14 @@ a {
 }
 
 .paragraph-5 {
+  font-family: DMsans, Verdana, sans-serif;
   color: rgba(0, 0, 0, 0.8);
   font-size: 16px;
   line-height: 2;
 }
 
 .paragraph-6 {
+  font-family: DMsans, Verdana, sans-serif;
   color: rgba(0, 0, 0, 0.8);
   font-size: 18px;
   line-height: 1.7;
@@ -589,6 +597,7 @@ a {
 
 .container {
   border-top: 1px none #000;
+  font-family: Dmsans, Verdana, sans-serif;
 }
 
 .heading-7 {
@@ -631,6 +640,7 @@ a {
   border: 1px none #000;
   border-radius: 2px;
   background-color: #d3f3f2;
+  font-family: DMsans, Verdana, sans-serif;
   line-height: 18px;
   text-align: left;
 }
@@ -695,10 +705,11 @@ a {
   border-width: 1px;
   border-color: #dddcdc #0abab5 #0abab5;
   border-radius: 0px;
+  font-family: DMsans, Verdana, sans-serif;
 }
 
 .rich-text-block-3 {
-  font-family: 'DM Sans', sans-serif;
+  font-family: Dmsans, Verdana, sans-serif;
 }
 
 .button-2 {
@@ -730,6 +741,18 @@ a {
 
 .heading-10 {
   font-size: 22px;
+}
+
+.nav-link-2 {
+  font-family: Dmsans, Verdana, sans-serif;
+}
+
+.rich-text-block-4 {
+  font-family: Dmsans, Verdana, sans-serif;
+}
+
+.body {
+  font-family: Dmsans, Verdana, sans-serif;
 }
 
 @media screen and (max-width: 991px) {
@@ -1027,42 +1050,6 @@ a {
 }
 
 @font-face {
-  font-family: 'Dmsans';
-  src: url('../fonts/DMSans-Bold.ttf') format('truetype');
-  font-weight: 700;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'Dmsans';
-  src: url('../fonts/DMSans-BoldItalic.ttf') format('truetype');
-  font-weight: 700;
-  font-style: italic;
-}
-@font-face {
-  font-family: 'Dmsans';
-  src: url('../fonts/DMSans-Italic.ttf') format('truetype');
-  font-weight: 400;
-  font-style: italic;
-}
-@font-face {
-  font-family: 'Dmsans';
-  src: url('../fonts/DMSans-Regular.ttf') format('truetype');
-  font-weight: 400;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'Dmsans';
-  src: url('../fonts/DMSans-MediumItalic.ttf') format('truetype');
-  font-weight: 500;
-  font-style: italic;
-}
-@font-face {
-  font-family: 'Dmsans';
-  src: url('../fonts/DMSans-Medium.ttf') format('truetype');
-  font-weight: 500;
-  font-style: normal;
-}
-@font-face {
   font-family: 'Quattrocento';
   src: url('../fonts/Quattrocento-Bold.ttf') format('truetype');
   font-weight: 700;
@@ -1073,4 +1060,40 @@ a {
   src: url('../fonts/Quattrocento-Regular.ttf') format('truetype');
   font-weight: 400;
   font-style: normal;
+}
+@font-face {
+  font-family: 'DMsans';
+  src: url('../fonts/DMSans-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'DMsans';
+  src: url('../fonts/DMSans-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'DMsans';
+  src: url('../fonts/DMSans-MediumItalic.ttf') format('truetype');
+  font-weight: 500;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'DMsans';
+  src: url('../fonts/DMSans-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'DMsans';
+  src: url('../fonts/DMSans-BoldItalic.ttf') format('truetype');
+  font-weight: 700;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'DMsans';
+  src: url('../fonts/DMSans-Italic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
 }
