@@ -88,7 +88,7 @@ a {
   height: auto;
   min-height: 500px;
   margin-bottom: 0px;
-  padding-bottom: 20px;
+  padding-bottom: 0px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -117,6 +117,7 @@ a {
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
+  line-height: 20px;
   text-align: center;
 }
 
@@ -170,7 +171,7 @@ a {
 .site-title {
   margin-top: 12px;
   margin-bottom: 12px;
-  font-family: Quattrocento, sans-serif;
+  font-family: 'Times New Roman', TimesNewRoman, Times, Baskerville, Georgia, serif;
   color: #000;
   font-size: 24px;
   font-weight: 700;
@@ -343,7 +344,8 @@ a {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  margin-bottom: 8px;
+  margin-top: 0px;
+  margin-bottom: 0px;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
   -webkit-flex-direction: row;
@@ -370,7 +372,7 @@ a {
   -webkit-flex: 0 auto;
   -ms-flex: 0 auto;
   flex: 0 auto;
-  font-family: Quattrocento, sans-serif;
+  font-family: 'Times New Roman', TimesNewRoman, Times, Baskerville, Georgia, serif;
   color: #000;
   font-size: 52px;
   line-height: 1.2;
@@ -380,6 +382,7 @@ a {
 .navbar-container {
   margin-right: auto;
   margin-left: auto;
+  font-family: 'Times New Roman', TimesNewRoman, Times, Baskerville, Georgia, serif;
 }
 
 .header2 {
@@ -642,7 +645,7 @@ a {
   border: 1px none #000;
   border-radius: 2px;
   background-color: #d3f3f2;
-  font-family: Dmsans, Verdana, sans-serif;
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
   line-height: 18px;
   text-align: left;
 }
