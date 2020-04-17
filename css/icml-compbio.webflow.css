@@ -656,6 +656,10 @@ a {
   padding-bottom: 40px;
 }
 
+.rich-text-block-3 {
+  font-family: 'DM Sans', sans-serif;
+}
+
 @media screen and (max-width: 991px) {
   .nav-link {
     color: #fff;
@@ -975,5 +979,17 @@ a {
   font-family: 'Dmsans';
   src: url('../fonts/DMSans-Medium.ttf') format('truetype');
   font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Quattrocento';
+  src: url('../fonts/Quattrocento-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Quattrocento';
+  src: url('../fonts/Quattrocento-Regular.ttf') format('truetype');
+  font-weight: 400;
   font-style: normal;
 }
