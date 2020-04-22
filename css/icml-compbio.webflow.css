@@ -86,7 +86,7 @@ a {
   display: -ms-flexbox;
   display: flex;
   height: auto;
-  min-height: 500px;
+  min-height: 400px;
   margin-bottom: 0px;
   padding-bottom: 0px;
   -webkit-box-orient: vertical;
@@ -171,7 +171,7 @@ a {
 .site-title {
   margin-top: 12px;
   margin-bottom: 12px;
-  font-family: 'Times New Roman', TimesNewRoman, Times, Baskerville, Georgia, serif;
+  font-family: Quattrocento, sans-serif;
   color: #000;
   font-size: 24px;
   font-weight: 700;
@@ -372,7 +372,7 @@ a {
   -webkit-flex: 0 auto;
   -ms-flex: 0 auto;
   flex: 0 auto;
-  font-family: 'Times New Roman', TimesNewRoman, Times, Baskerville, Georgia, serif;
+  font-family: Quattrocento, sans-serif;
   color: #000;
   font-size: 52px;
   line-height: 1.2;
