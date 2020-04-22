@@ -86,7 +86,7 @@ a {
   display: -ms-flexbox;
   display: flex;
   height: auto;
-  min-height: 500px;
+  min-height: 450px;
   margin-bottom: 0px;
   padding-bottom: 0px;
   -webkit-box-orient: vertical;
@@ -408,7 +408,7 @@ a {
 
 .rich-text-block {
   font-family: DMsans, Verdana, sans-serif;
-  color: rgba(0, 0, 0, 0.8);
+  color: rgba(0, 0, 0, 0.7);
 }
 
 .paragraph {
@@ -440,6 +440,7 @@ a {
 
 .bold-text {
   margin-left: 0px;
+  font-family: 'Times New Roman', TimesNewRoman, Times, Baskerville, Georgia, serif;
   font-size: 20px;
 }
 
@@ -478,7 +479,8 @@ a {
 
 .paragraph-3 {
   padding-bottom: 40px;
-  font-family: 'Times New Roman', TimesNewRoman, Times, Baskerville, Georgia, serif;
+  font-family: DMsans, Verdana, sans-serif;
+  color: rgba(0, 0, 0, 0.7);
   text-align: left;
 }
 
@@ -569,14 +571,14 @@ a {
 
 .paragraph-5 {
   font-family: DMsans, Verdana, sans-serif;
-  color: rgba(0, 0, 0, 0.8);
+  color: rgba(0, 0, 0, 0.7);
   font-size: 16px;
   line-height: 2;
 }
 
 .paragraph-6 {
   font-family: DMsans, Verdana, sans-serif;
-  color: rgba(0, 0, 0, 0.8);
+  color: rgba(0, 0, 0, 0.7);
   font-size: 18px;
   line-height: 1.7;
 }
@@ -599,6 +601,7 @@ a {
 }
 
 .bold-text-2 {
+  font-family: 'Times New Roman', TimesNewRoman, Times, Baskerville, Georgia, serif;
   font-size: 20px;
 }
 
@@ -666,6 +669,7 @@ a {
   grid-template-columns: 1fr 1fr;
   -ms-grid-rows: auto auto;
   grid-template-rows: auto auto;
+  color: rgba(0, 0, 0, 0.7);
   -o-object-fit: fill;
   object-fit: fill;
 }
@@ -682,17 +686,17 @@ a {
 
 .paragraph-7 {
   display: block;
-  color: rgba(0, 0, 0, 0.8);
+  color: rgba(0, 0, 0, 0.7);
 }
 
 .paragraph-8 {
   position: -webkit-sticky;
   position: sticky;
-  color: rgba(0, 0, 0, 0.8);
+  color: rgba(0, 0, 0, 0.7);
 }
 
 .paragraph-9 {
-  color: rgba(0, 0, 0, 0.8);
+  color: rgba(0, 0, 0, 0.7);
 }
 
 .heading-8 {
@@ -756,6 +760,7 @@ a {
 
 .rich-text-block-4 {
   font-family: DMsans, Verdana, sans-serif;
+  color: rgba(0, 0, 0, 0.7);
 }
 
 .body {
@@ -771,7 +776,8 @@ a {
 }
 
 .text-block {
-  font-family: 'Times New Roman', TimesNewRoman, Times, Baskerville, Georgia, serif;
+  position: static;
+  font-family: DMsans, Verdana, sans-serif;
 }
 
 .list-item-3 {
